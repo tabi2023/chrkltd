@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT</title>
+    <a href="index.html"></a>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+    <style>
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e0ecff, #ffffff);
+  color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #004aad;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+/* Contact Cards */
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 200px;
+  height: 160px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card i {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #004aad;
+}
+
+.contact-card span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+
+   <section class="contact-section" id="contact">
+  <h2>Get in Touch</h2>
+  <p>Let’s connect! Reach out to CHRK LTD through your favorite platform.</p>
+
+  <div class="contact-cards">
+    <a href="https://www.facebook.com/share/174qRZu5Dg/" target="_blank" class="contact-card">
+      <i class="fab fa-facebook-f"></i>
+      <span>Facebook</span>
+    </a>
+
+    <a href="https://www.instagram.com/chrkltd?igsh=MXgzOHZlaGJiZGZ1dQ==" target="_blank" class="contact-card">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+    </a>
+
+    <a href="mailto:chrkltd@gmail.com" class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <span>Email Us</span>
+    </a>
+
+    <a href="tel:+447466407232" class="contact-card">
+      <i class="fas fa-phone-alt"></i>
+      <span>Call Us</span>
+    </a>
+  </div>
+</section>
+
+
+</body>
+</html>
